@@ -7876,6 +7876,10 @@ textarea.form-control-lg {
 
 .p-5 {
   padding: 3rem !important;
+
+  @media screen  and (max-width: 768px){
+    padding: 1.5rem !important;
+  }
 }
 
 .px-0 {
@@ -7906,6 +7910,10 @@ textarea.form-control-lg {
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
+
+   @media screen  and (max-width: 768px){
+    padding: 1.5rem !important;
+  }
 }
 
 .py-0 {
